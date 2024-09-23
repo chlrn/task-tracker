@@ -67,6 +67,14 @@ POSTGRES_USER=<ваш пользователь>
 POSTGRES_PASSWORD=<ваш пароль>
 SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5433/task-tracker
 ```
+
+### Настройка JOOQ
+## 1. Настройка JOOQ
+JOOQ используется для генерации кода на основе схемы базы данных. Сначала нужно настроить подключение к базе данных в файле конфигурации проекта, а затем сгенерировать классы JOOQ с помощью gradle:
+```bash
+./gradlew generateJooq
+```
+
 ### Swagger
 ### 1. Документация API (Swagger)
 Документацию API можно просмотреть по следующему адресу:
