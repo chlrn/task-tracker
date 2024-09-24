@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="task-tracker" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43ed8f38-33da-4ea6-bd92-dfd5afaafdf5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task-tracker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Dockerfile" />
+        <option value="HTTP Request" />
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="Kubernetes Deployment" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chlrn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chlrn/task-tracker.git&quot;,
+    &quot;accountId&quot;: &quot;bd49c178-fcad-4df0-856f-6178ec2ca879&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lW6cQvCmkY3XJBHI4UVgMthjxZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build task-tracker 2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build task-tracker.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskControllerTest.createTask.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TeamControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in ActivityApi.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in task-table.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.task-table | http://localhost:8080/api/tasks#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.task-table | http://localhost:8080/api/tasks#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.task-table | http://localhost:8080/api/tasks/2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.task-table | http://localhost:8080/api/tasks/2/status?status=IN_PROGRESS.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandralebedeva-preobrazenskaa/Downloads/task-tracker 2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.controller" />
+      <recent name="org.example.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="TaskControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.controller.TaskControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.controller.TeamControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="All in ActivityApi" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/main/java/org/example/http/ActivityApi.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="task-table | http://localhost:8080/api/tasks#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../task-table.http" index="2" requestIdentifier="http://localhost:8080/api/tasks#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="task-table | http://localhost:8080/api/tasks/2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../task-table.http" index="3" requestIdentifier="http://localhost:8080/api/tasks/2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="task-table | http://localhost:8080/api/tasks/2/status?status=IN_PROGRESS" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../task-table.http" index="3" requestIdentifier="http://localhost:8080/api/tasks/2/status?status=IN_PROGRESS" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-tracker.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in ActivityApi" />
+        <item itemvalue="Gradle.TaskControllerTest" />
+        <item itemvalue="Gradle.TeamControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43ed8f38-33da-4ea6-bd92-dfd5afaafdf5" name="Changes" comment="" />
+      <created>1725283564135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725283564135</updated>
+      <workItem from="1725353010055" duration="66000" />
+      <workItem from="1725353102712" duration="9787000" />
+      <workItem from="1725370239172" duration="6889000" />
+      <workItem from="1725388819353" duration="7909000" />
+      <workItem from="1725475204770" duration="2577000" />
+      <workItem from="1725519876688" duration="1279000" />
+      <workItem from="1725521164625" duration="1181000" />
+      <workItem from="1725701111958" duration="2108000" />
+      <workItem from="1725779932939" duration="3617000" />
+      <workItem from="1725824841712" duration="5053000" />
+      <workItem from="1725866183082" duration="9000" />
+      <workItem from="1725866260939" duration="1239000" />
+      <workItem from="1725953311030" duration="1363000" />
+      <workItem from="1725980783884" duration="1320000" />
+      <workItem from="1725982285567" duration="69000" />
+      <workItem from="1725982501359" duration="25000" />
+      <workItem from="1725987736532" duration="372000" />
+      <workItem from="1725988165512" duration="2443000" />
+      <workItem from="1726079109381" duration="72000" />
+      <workItem from="1726079290723" duration="1125000" />
+      <workItem from="1726080421193" duration="547000" />
+      <workItem from="1726081465618" duration="450000" />
+      <workItem from="1726081918414" duration="488000" />
+      <workItem from="1726082409506" duration="11000" />
+      <workItem from="1726082503329" duration="27000" />
+      <workItem from="1726083940292" duration="787000" />
+      <workItem from="1726085262656" duration="10000" />
+      <workItem from="1726085282589" duration="47000" />
+      <workItem from="1726085331852" duration="4968000" />
+      <workItem from="1726139377395" duration="318000" />
+      <workItem from="1726147739319" duration="3781000" />
+      <workItem from="1726152084812" duration="94000" />
+      <workItem from="1726239951796" duration="1032000" />
+      <workItem from="1726241011782" duration="944000" />
+      <workItem from="1726241975415" duration="128000" />
+      <workItem from="1726242123742" duration="136000" />
+      <workItem from="1726242953806" duration="177000" />
+      <workItem from="1726243133407" duration="94000" />
+      <workItem from="1726243376868" duration="84000" />
+      <workItem from="1726243681889" duration="1116000" />
+      <workItem from="1726403492958" duration="148000" />
+      <workItem from="1726403644219" duration="42000" />
+      <workItem from="1726403697607" duration="6262000" />
+      <workItem from="1726585500288" duration="2509000" />
+      <workItem from="1726588032575" duration="467000" />
+      <workItem from="1726588513901" duration="150000" />
+      <workItem from="1726588667521" duration="143000" />
+      <workItem from="1726588813446" duration="564000" />
+      <workItem from="1726600720609" duration="729000" />
+      <workItem from="1727002850675" duration="229000" />
+      <workItem from="1727003106647" duration="608000" />
+      <workItem from="1727003720658" duration="261000" />
+      <workItem from="1727004016297" duration="1130000" />
+      <workItem from="1727005181919" duration="3651000" />
+      <workItem from="1727104240065" duration="1005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

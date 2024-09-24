@@ -1,0 +1,41 @@
+ Создание задачи
+ без команды
+ POST http://localhost:8080/api/tasks
+ {
+     "name": "Task 2",
+     "description": "Text"
+
+ }
+
+Создание команды
+POST http://localhost:8080/api/teams
+{
+    "name": " New Team",
+    "workflow": ["TODO", "IN_PROGRESS", "TEST", "DONE"]
+}
+
+Присвоение созданной команды задаче
+PATCH /api/tasks/1/team?teamId=1
+/api/tasks/{taskId}/team, где {taskId} — идентификатор задачи
+
+Изменение статуса таски
+PATCH /api/tasks/1/status?status=IN_PROGRESS
+/api/tasks/{taskId}/status, где {taskId} - идентификатор задачи, а новый статус передается в параметре запроса
+
+Получение всех таск
+GET http://localhost:8080/api/tasks
+
+Получение таск по айди
+GET /api/tasks/1
+
+
+Получение команд по айди
+GET /api/teams/1
+
+Получение всех команд
+GET http://localhost:8080/api/teams
+
+docker build -t task-tracker .
+
+docker run -p 8080:8080 task-tracker
+
