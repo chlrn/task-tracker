@@ -1,0 +1,49 @@
+# task-table
+
+###
+# @name http://localhost:8080/api/tasks
+GET http://localhost:8080/api/tasks
+
+###
+# @name http://localhost:8080/api/tasks
+POST http://localhost:8080/api/tasks
+Authorization: API-key AQVN11Q7idZUf5oaswdsv_nnZTiqkp2Us050iLSW
+Content-Type: application/json
+
+{
+  "name": "Task 3",
+  "description": "Text"
+}
+
+
+###
+# @name http://localhost:8080/api/tasks/2/status?status=IN_PROGRESS
+PATCH http://localhost:8080/api/tasks/2/status?
+    status=IN_PROGRESS
+
+###
+# @name http://localhost:8080/api/tasks/3/team?teamId=2
+PATCH http://localhost:8080/api/tasks/3/team?
+    teamId=2
+
+
+###
+# @name http://localhost:8080/api/teams
+POST http://localhost:8080/api/teams
+Content-Type: application/json
+
+{
+  "name": " New Team 12",
+  "workflow": [
+    "TODO",
+    "IN_PROGRESS",
+    "REVIEW",
+    "TEST",
+    "DONE"
+  ]
+}
+
+
+###
+# @name http://localhost:8080/api/teams
+GET http://localhost:8080/api/teams
