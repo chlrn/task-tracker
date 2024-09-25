@@ -1,0 +1,92 @@
+plugins {
+    id 'java'
+    id "io.spring.dependency-management" version "1.1.6"
+    id "org.springframework.boot" version "3.3.3"
+    id 'nu.studer.jooq' version '7.1'
+}
+
+jooq {
+    version = '3.18.0' // Укажите версию JOOQ
+    configurations {
+        main {
+            generationTool {
+                jdbc {
+                    driver = 'org.postgresql.Driver'
+                    url = 'jdbc:postgresql://localhost:5433/task-tracker'
+                    user = 'postgres'
+                    password = '111'
+                }
+                generator {
+                    name = 'org.jooq.codegen.JavaGenerator'
+                    database {
+                        name = 'org.jooq.meta.postgres.PostgresDatabase'
+                        inputSchema = 'public'
+                    }
+                    target {
+                        packageName = 'org.jooq.generated'
+                        directory = 'src/generated/java'
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.4'
+    implementation group: 'org.springframework.statemachine', name: 'spring-statemachine-core', version: '4.0.0'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.7.4'
+    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '3.3.3'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testCompileOnly 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.4'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
+    // JOOQ
+    implementation 'org.jooq:jooq:3.18.0'
+    implementation 'org.jooq:jooq-meta:3.18.0'
+    implementation 'org.jooq:jooq-codegen:3.18.0'
+
+        // Добавьте драйвер PostgreSQL
+    implementation 'org.postgresql:postgresql:42.6.0'
+
+
+    jooqGenerator 'org.postgresql:postgresql:42.6.0'
+
+
+
+
+    // Flyway для миграций
+    implementation 'org.flywaydb:flyway-core:9.0.0'
+
+    // Spring Boot Data JOOQ Starter
+    implementation 'org.springframework.boot:spring-boot-starter-jooq'
+    implementation 'io.github.cdimascio:dotenv-java:2.2.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}

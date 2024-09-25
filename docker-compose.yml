@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16.4
+    environment:
+      POSTGRES_USER: your_db_username
+      POSTGRES_PASSWORD: your_db_password
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"
+
+  myapp:
+    image: myapp:latest
+    build: .
+    environment:
+      DB_URL: jdbc:postgresql://localhost:5433/task-tracker
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
