@@ -1,6 +1,5 @@
 package org.example.repository;
 
-import org.example.entity.TaskStatus;
 import org.example.entity.Team;
 import org.jooq.DSLContext;
 import org.jooq.generated.tables.records.TeamRecord;

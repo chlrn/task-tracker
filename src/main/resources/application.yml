@@ -1,4 +1,3 @@
----
 server:
   port: 8080
 
@@ -6,8 +5,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5433/task-tracker
-    username: YOUR_NAME
-    password: YOUR_PASSWORD
+    username: YOUR-USERNAME
+    password: YOUR-PASSW
   jpa:
     properties:
       hibernate:
@@ -18,5 +17,20 @@ spring:
   flyway:
     baseline-on-migrate: true
 
-
-
+  security:
+    oauth2:
+      client:
+        registration:
+          yandex:
+            client-id: YOUR-CLIENTID
+            client-secret: YOUR-CLIENSEC
+            scope: email,phone
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            client-name: Yandex
+        provider:
+          yandex:
+            authorization-uri: https://oauth.yandex.com/authorize
+            token-uri: https://oauth.yandex.com/token
+            user-info-uri: https://login.yandex.ru/info
+            user-name-attribute: id

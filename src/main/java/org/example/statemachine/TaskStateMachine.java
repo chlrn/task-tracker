@@ -1,28 +1,36 @@
 package org.example.statemachine;
 
 import org.example.entity.TaskStatus;
+import org.example.repository.TaskStatusRepository;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Component
 public class TaskStateMachine {
 
-    private final List<TaskStatus> workflow = Arrays.asList(
-            TaskStatus.TODO,
-            TaskStatus.IN_PROGRESS,
-            TaskStatus.REVIEW,
-            TaskStatus.TEST,
-            TaskStatus.DONE
-    );
+    private final TaskStatusRepository taskStatusRepository;
 
-    public boolean canTransition(TaskStatus currentStatus, TaskStatus newStatus) {
+    public TaskStateMachine(TaskStatusRepository taskStatusRepository) {
+        this.taskStatusRepository = taskStatusRepository;
+    }
+
+    // Получаем рабочие процессы (workflow) для команды
+    public List<TaskStatus> getWorkflowForTeam(Long teamId) {
+        return taskStatusRepository.findByTeamId(teamId);
+    }
+
+    public boolean canTransition(TaskStatus currentStatus, TaskStatus newStatus, Long teamId) {
+        // Загружаем список статусов для команды
+        List<TaskStatus> workflow = getWorkflowForTeam(teamId);
+
+        // Проверяем индексы текущего и нового статусов в списке воркфлоу команды
         int currentIndex = workflow.indexOf(currentStatus);
         int newIndex = workflow.indexOf(newStatus);
 
-        // Разрешаем переход назад или на следующий статус, но запрещаем перепрыгивать
+        // Разрешаем переход только между соседними статусами
         return currentIndex != -1 && newIndex != -1 &&
                 (newIndex == currentIndex + 1 || newIndex == currentIndex - 1);
     }
+
 }
